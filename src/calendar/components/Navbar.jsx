@@ -6,7 +6,7 @@ export const Navbar = () => {
   const { startLogout, user } = useAuthStore();
 
   return (
-    <div className="navbar navbar-dark bg-dark mb-4 px-4">
+    <div className="navbar navbar-dark bg-success mb-4 px-4">
         <span className="navbar-brand">
             <i className="fas fa-calendar-alt"></i>
             &nbsp;
@@ -14,7 +14,7 @@ export const Navbar = () => {
         </span>
 
         <button 
-          className="btn btn-outline-danger"
+          className="btn btn-outline-light"
           onClick={ startLogout }
         >
             <i className="fas fa-sign-out-alt"></i>
